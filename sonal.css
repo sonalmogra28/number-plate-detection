@@ -1,0 +1,127 @@
+body {
+        height: 200%;
+        background-image: url("https://thumbs.gfycat.com/AssuredHardtofindHorsefly-size_restricted.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+	text-align: center;
+        background-clip: border-box ;
+        border-image: initial;
+        background-attachment: fixed;
+        background-image: ("https://thumbs.gfycat.com/AssuredHardtofindHorsefly-size_restricted.gif");
+    
+    }
+    
+    input[type=text],
+    select {
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+	text-align: center;
+        border: 2px solid #dcdcdc;
+        border-radius: 8px;
+        font-family: 'Franklin Gothic Medium';
+        outline: none;
+        box-shadow: rgb(55, 37, 99);
+        background-position-x: initial;
+    }
+    
+    input[type=text]:focus {
+        box-decoration-break: slice;
+        border:2px solid #302e2e;
+	text-align: center;
+        font-style: inherit;
+    }
+    
+    input[type=submit] {
+        width: 10%;
+        height: 20%;
+        background-color: green;
+        padding: 10px 10px 10px 10px ;
+	text-align: center;
+        margin: 10px 0;
+        border-radius: 15px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #1a6656;
+        font-size: 17px;
+        border:2px solid #302e2e;
+        font-weight: 500;
+        background: #EFEEF5;
+        padding: 10px;
+        cursor:-moz-grab;
+        transition: .3s;
+            }
+    
+    input[type=submit]:hover ,h3,marquee,h1{
+        background-color:rgba(44, 42, 41, 0.4);
+	    margin: 2px;
+        
+        color:white ;
+        box-sizing: border-box;
+        font-style: oblique;
+        border:2px solid #f8f5f5;
+        border-radius: 20px;
+        outline:invert;
+        font-weight: 900;
+    }
+    .d1,.a1{
+        padding-left: auto;
+	text-align: center; 
+        margin-right: auto;
+        letter-spacing: 3px;
+        color: #dad3e2;
+        font-size: 50px;
+        border:1px solid #EFEEF5;
+        font-weight: 500;
+        padding: 10px 10px 10px 10px;
+        cursor:pointer;
+        font-style: italic;
+        font-variant: small-caps;
+        padding-left: inherit;
+        transition: .3s;
+    
+animation:changeborder 10s infinite linear;
+border: 7px solid rgb(29, 9, 148);
+}
+ .a1{
+    padding-left: auto; 
+        margin-right: auto;
+        letter-spacing: 3px;
+        color: #eeeaf1;
+        font-size: 50px;
+        border:3px solid #992a1b;
+        font-weight: 500;
+        text-shadow: 2px 2px 2px rgba(22, 20, 19, 0.4);
+        color: var(--left-color);
+        display: flex; justify-content: space-between;
+        align-items: center;
+    
+        padding: 10px 0px 10px 10px;
+        cursor:pointer;
+        font-style: italic;
+        font-variant:inherit;
+        padding-left: inherit;
+	text-align: center;	
+        column-gap: initial;
+        transition: .3s;
+        animation:changeborder 10s infinite linear;
+        border: 7px solid rgb(26, 84, 138);
+
+ }
+
+
+ 
+    h1,h3 {
+        font-size: 42px;
+        text-shadow: 2px 2px 2px rgba(22, 20, 19, 0.4);
+        color: var(--left-color);
+        display: flex;
+	text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        letter-spacing: 5px;
+        font-style:italic;
+    }
